@@ -28,9 +28,10 @@ html {
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: 'Poppins', sans-serif;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .hero .title {
     font-size: 3rem;
+    text-shadow: #3298dc 1px 0 10px;
   }
 }
 .hero .title {
@@ -38,7 +39,6 @@ html {
   transform: rotate(-5deg);
   font-size: 5rem;
   color: whitesmoke;
-  /* text-shadow: #3298dc 1px 0 10px; */
 }
 
 .hero .subtitle {
